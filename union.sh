@@ -23,7 +23,7 @@ initial_setup() {
     (cd "$BOT_DIR" && wget -q --show-progress -O "requirements.txt" "https://raw.githubusercontent.com/airdropalc/Union-Auto-Swap/refs/heads/main/requirements.txt")
     echo -e "${GREEN}✓ Files downloaded successfully.${NC}"
     echo -e "${CYAN}➤ Installing required Python packages using pip...${NC}"
-    pip install -r "$BOT_DIR/requirements.txt"
+    pip install -r "$BOT_DIR/requirements.txt" --break-system-packages
     if [ $? -eq 0 ]; then
         echo -e "${GREEN}✓ Dependencies installed successfully.${NC}"
     else
