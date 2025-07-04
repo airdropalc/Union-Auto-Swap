@@ -48,7 +48,7 @@ This method is for users who prefer to review the code and configure files manua
 
 **1. Clone the Repository**
 ```bash
-git clone [https://github.com/airdropalc/Union-Auto-Swap.git](https://github.com/airdropalc/Union-Auto-Swap.git)
+git clone https://github.com/airdropalc/Union-Auto-Swap.git
 cd Union-Auto-Swap
 ```
 
